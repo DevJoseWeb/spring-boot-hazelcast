@@ -1,0 +1,16 @@
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/hazelcast-tutorial
+management:
+  security:
+    enabled: false
+  server:
+    port: 9000
+    address: 127.0.0.1
+  endpoint:
+    shutdown:
+      enabled: true
